@@ -1,0 +1,86 @@
+.navbar {
+	background-color: #308d49;
+	position: fixed;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #ffffff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #33cc33 !important;
+  	background-color: #f2f2f2 !important;
+}
+
+h1 {
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	color: #cccc00;
+	font-weight: bold;
+	text-align: center; 
+	width: 100%; 
+  margin: 80px 0 20px; 
+}
+
+#communities {
+	position: relative;
+	margin-top: -50px;
+}
+
+.caption > h3 {
+	text-align: center;
+  color: #4DCFE0;
+}
+
+p {
+	text-align: justify;
+}
+
+.thumbnail {
+	box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+}
+
+.thumbnail > img {
+	height: 250px;
+}
+
+@media only screen and (max-width: 1200px) { /* screen size until 1200px */
+    h1 {
+        font-size: 2.1em; /* 1.5x default size */
+    }
+}
+@media only screen and (max-width: 1000px) { /* screen size until 1000px */
+    h1 {
+        font-size: 2.0em; /* 1.2x default size */
+        }
+    }
+@media only screen and (max-width: 500px) { /* screen size until 500px */
+    h1 {
+        font-size: 1.9em; /* 0.8x default size */
+        }
+    }
+
+/*------Footer------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 43px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  background-color: #308d49;
+  color: #ffffff;
+}
+
+.fa.fa-facebook-square {
+	color: #f2f2f2;
+}
+
+#footer {
+	text-align: center;
+}

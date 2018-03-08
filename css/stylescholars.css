@@ -1,0 +1,157 @@
+.navbar {
+	background-color: #308d49;
+	position: fixed;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #ffffff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #33cc33 !important;
+  	background-color: #f2f2f2 !important;
+}
+
+/*------Graduates------*/
+
+h1 {
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	color: #cccc00;
+	font-weight: bold;
+	text-align: center; 
+	width: 100%; 
+  	margin: 80px 0 20px; 
+}
+
+.card {
+ 	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description {
+	padding: 10px;
+}
+
+.description > p {
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+}
+
+.photo {
+	padding-top: 10px;
+}
+
+.photo > img {
+	display: block;
+	margin: auto;
+	max-height: 250px;
+}
+
+/*-------Blockquote------*/
+
+.container > blockquote {
+	width: 800px;
+}
+blockquote {
+	position: relative;
+	margin-top: 70px;
+	font-family: 'Poiret One', cursive;
+	color: #4DCFE0;
+	font-weight: bold;
+	text-align: left;
+	font-size: 1.5em;
+}
+footer {
+	text-align: right;
+}
+
+/*------Process------*/
+
+#process {
+	border: 2px solid #e6e6e6;
+	border-radius: 25px;
+}
+
+section > h1 {
+	margin-top: 20px;
+}
+
+section > p {
+	text-align: justify;
+}
+
+#process {
+	margin-bottom: 20px;
+}
+#tgrfscholars {
+    position: relative;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+
+#imageisko {
+  opacity: 1;
+  display: block;
+  width: 100%
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#tgrfscholars:hover #imageisko{
+  opacity: 0.3;
+}
+
+#tgrfscholars:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4DCFE0;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+h3 {
+	color: white;
+	text-transform: uppercase;
+}
+
+/*------Footer------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 43px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  background-color: #308d49;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fa.fa-facebook-square {
+	color: #f2f2f2;
+}
+

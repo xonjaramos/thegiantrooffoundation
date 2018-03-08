@@ -1,0 +1,124 @@
+.navbar {
+	background-color: #308d49;
+	position: fixed;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #ffffff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+	color: #33cc33 !important;
+  	background-color: #f2f2f2 !important;
+}
+
+/*------Header------*/
+
+h1 {
+	position: relative;
+	margin-top: 70px;
+	font-family: 'Poiret One', cursive;
+	color: #cccc00;
+	font-weight: bold;
+	text-align: center;
+}
+
+header > p {
+	text-align: justify;
+}
+
+h2 {
+	font-family: 'Poiret One', cursive;
+	color: #cccc00;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.9em;
+
+}
+
+
+/*------Ways to Help------*/
+#howto {
+	margin-top: 15px;
+}
+img {
+	height: 70px;
+	/*border-radius: 50%;*/
+	display: block;
+	margin: 0 auto;
+}
+
+.collapse {
+	text-align: justify;
+	position: relative;
+}
+
+.btn {
+	background-color: #4DCFE0;
+	color: #ffffff;
+	text-align: center;
+}
+
+.btn:hover {
+	text-decoration: none;
+	color: #ffff00;
+}
+/*------Contact and Map------*/
+
+h3 {
+	text-align: center;
+	color: #cccc00;
+	font-size: 1.5em;
+}
+
+.card {
+	border: 1px solid #cccc00;
+ 	padding: 0px 10px 0px 10px;
+}
+
+.fa {
+	color: #4DCFE0;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input {
+	padding: 15px;
+}
+
+input:focus {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#contacts {
+	margin-top: 35px;
+}
+
+#mapdetails {
+	margin-top: 10px;
+}
+
+/*------Footer------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 43px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  background-color: #308d49;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fa.fa-facebook-square {
+	color: #f2f2f2;
+}
+
