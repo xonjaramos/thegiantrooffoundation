@@ -60,27 +60,22 @@ p {
     }
 
 /*------Footer------*/
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin-bottom: 43px;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 43px;
-  line-height: 43px;
-  background-color: #308d49;
-  color: #ffffff;
-}
-
-.fa.fa-facebook-square {
-	color: #f2f2f2;
-}
 
 #footer {
-	text-align: center;
+    background-color: #308d49;
+    color: white;
+    padding: 12px 0 5px 0;
+    font-size: .8em;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer > p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+     footer > p {
+       font-size: .9em;
+    }
 }

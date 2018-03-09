@@ -36,6 +36,8 @@ h1 {
 }
 
 h2 {
+	text-transform: uppercase;
+	font-size: 1.9em;
 	text-align: center;
 }
 
@@ -69,9 +71,12 @@ footer {
 
 /*------Process------*/
 
+
+
 #process {
 	border: 2px solid #e6e6e6;
 	border-radius: 25px;
+	margin-bottom: 20px;
 }
 
 section > h1 {
@@ -82,76 +87,49 @@ section > p {
 	text-align: justify;
 }
 
-#process {
-	margin-bottom: 20px;
-}
 #tgrfscholars {
     position: relative;
-    width: 80%;
+    max-width: 850px;
     margin-bottom: 15px;
 }
 
-
 #imageisko {
-  opacity: 1;
-  display: block;
-  width: 100%
-  height: auto;
-  transition: .3s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-#tgrfscholars:hover #imageisko{
-  opacity: 0.3;
-}
-
-#tgrfscholars:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: #4DCFE0;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+	width: 100%;
+	margin-bottom: 15px;
 }
 
 h3 {
 	color: white;
 	text-transform: uppercase;
+	text-align: center;
+	background-color: #4DCFE0;
+	border-radius: 5px;
+	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	font-size: 1.3em;
+	margin: 0 90px 0 90px;
+}
+
+a:link {
+	text-decoration: none;
 }
 
 /*------Footer------*/
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin-bottom: 43px;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 43px;
-  line-height: 43px;
-  background-color: #308d49;
-  text-align: center;
-  color: #ffffff;
+
+#footer {
+    background-color: #308d49;
+    color: white;
+    padding: 12px 0 5px 0;
+    font-size: .8em;
+    text-align: center;
+    color: #ffffff;
 }
 
-.fa.fa-facebook-square {
-	color: #f2f2f2;
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 2.2em;
+       }
+    footer > p {
+       font-size: .9em;
+    }
 }
-
